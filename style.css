@@ -1,0 +1,212 @@
+
+/* LEVEL 1 START */
+
+/* External Stylesheet = Writing CSS in a separate document and linking it with HTML file
+ while writing a external stylesheet never use inline and <style> in html file */
+
+
+
+/* Color Property = Used to set the color of foreground 
+foreground = text, button, link  */
+
+
+/* Color Systems 
+RGB
+    color:rgb(255,0,0) --RED
+    color: rgb(0,255,0) --GREEN
+    color: rgb(0,0,255) --BLUE 
+    
+    
+HEX (Hexadecimal)  --hex=6 and decimal =10
+    color: #ff0000; --RED
+    color: #00ff00; --GREEN
+    color: #0000ff; --BLUE    */
+
+
+/* Selectors
+    * =Asterisk
+    & = Ampersand
+        1. Universal Selector
+            *{}   --w  
+        2. Element Seletor
+            h1{}
+        3. id Selector 
+            #myId{}
+        4. Class Seletor
+            .myClass{}         */
+
+
+/* Universal Selector */
+*{
+    color: black;
+}
+
+/* Element Seletor */
+h2{
+    color: black;
+}
+
+/* id Selector */
+#p1{
+    color: #89ff89;
+}
+
+/* Class Selector */
+.myClass{
+    color: red;
+}
+
+
+
+
+
+
+/* pratise set 1 */
+/* Que 1 */
+#box{
+    background-color: #0000ff;
+}
+
+/* Que 2 */
+.heading{
+    color: #ff0000;
+}
+
+/* h1,h2,h3{
+    color: gray;
+} */
+
+/* Que 3 */
+button{
+    background-color: #00ff00;
+}
+
+/* LEVEL 1 END */
+
+
+/* LEVEL 2 START */
+
+/* Text Properties 
+        text-align: left/right/center
+        text-align: start; --lEFT
+        text-align: end;    --RIGHT
+
+
+        TEXT-DECORATION
+        text-decoration: underline/overline/line-through ;
+        text-decoration: none; --mean we don't need any underline, overline and line-through
+
+        FONT-WEIGHT
+        font-weight: normal/bold/bolder/lighter ;
+        font-weight: 100-900
+
+
+        FONT-FAMILY
+        font-family:arial
+        font-family: arial,roboto
+
+        5 Generic Font Families are:
+            -Serif
+            -Sans-Serif
+            -Cursive
+            -Fantasy
+            -Monospace
+
+*/
+/* text-align */
+p{
+    text-align: center;   
+}
+
+/* text align and text-decoration */
+h3{
+    text-align: end;
+    text-decoration: red underline;
+    
+}
+
+/* text-decoration  */
+a{
+    text-decoration: none;
+}
+
+/* font-weight */
+#h1{
+    font-weight: 200;
+}
+
+#h2{
+    font-weight: bolder;
+}
+
+#h3{
+    font-weight: lighter;
+}
+
+
+/* Font-family */
+#paragraph1{
+    font-family: Arial;
+}
+
+#paragraph2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* UNITS IN CSS
+    ABSOLUTE (you can measure it in km,cm,mm, but mostly used is px)
+        pixels(px)
+            96px = 1 inch = 2.54cm
+            font-size: 2px;
+
+        LINE HEIGHT
+            line-height: 2px
+            line-height: normal
+
+         TEXT-TRANFORM
+            text-tranform: uppercase/lowercase/capitalize/none   
+*/
+
+/* Font-size */
+#pg1{
+    font-size: 25px;
+}
+
+/* line-height */
+#pg2{
+    /* line-height: 100px; */
+    line-height: normal;
+}
+
+/* text-tranform */
+#pg3{
+    text-transform: uppercase;
+}
+
+
+/* Pratise set 2 */
+/* Que 1 */
+#cap{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Que 2 */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Que 3 */
+#outer{
+    font-size: 25px;
+}
+
+#inner
+{
+    font-size: 10px;
+}
+
+/* LEVEL 2 End */
+
